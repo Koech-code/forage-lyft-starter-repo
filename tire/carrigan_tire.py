@@ -8,6 +8,6 @@ class carriganTire(Car, ABC):
 
     for i in tireWearArray:
         if i>=0.9:
-            print('service carrigan tire')
+            print(i, 'service carrigan tire')
         elif i<0.9:
-            print('don\'t  service carrigan tire')
+            print(i, 'don\'t  service carrigan tire')
