@@ -10,9 +10,9 @@ class octoprimeTire(Car, ABC):
         for i in tireWearArray:
             sum+=i;
             if sum>=3:
-                print (sum, 'service the tire')
+                print (sum, 'service octoprime tire')
             elif sum<3:
-                print (sum, 'don\'t service the tire')
+                print (sum, 'don\'t service octoprime tire')
         return (sum)
         
     tireWearArray=[0,1,2,3]
