@@ -9,4 +9,4 @@ class SpindlerBattery(Car, ABC):
         self.current_date = current_date
 
     def battery_should_be_serviced(self):
-        return self.current_date.replace(year=self.last_service_date.year + 2)
+        return self.current_date.replace(year=self.last_service_date.year + 3)
